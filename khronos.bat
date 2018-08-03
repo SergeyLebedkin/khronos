@@ -16,6 +16,7 @@ powershell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.github
 
 mkdir GL
 powershell -Command "(New-Object Net.WebClient).DownloadFile('https://www.khronos.org/registry/OpenGL/api/GL/glcorearb.h','GL/glcorearb.h')"
+powershell -Command "(New-Object Net.WebClient).DownloadFile('https://www.khronos.org/registry/OpenGL/api/GL/wglext.h',   'GL/wglext.h')"
 
 mkdir GLES
 powershell -Command "(New-Object Net.WebClient).DownloadFile('https://www.khronos.org/registry/OpenGL/api/GLES/gl.h',        'GLES/gl.h')"
